@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Google Reviews</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 32px 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #202124;
+      background: #f8f9fa;
+    }
+    main {
+      width: 100%;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    h1 {
+      margin: 0 0 8px;
+      text-align: center;
+      font-size: clamp(1.6rem, 4vw, 2.25rem);
+    }
+    .intro {
+      margin: 0 0 28px;
+      text-align: center;
+      color: #5f6368;
+    }
+    .reviews {
+      min-height: 120px;
+      padding: 16px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, .06);
+    }
+  </style>
+
+  <!-- Elfsight platform script -->
+  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+</head>
+<body>
+  <main>
+    <h1>Google Reviews</h1>
+    <p class="intro">See what customers are saying about our company.</p>
+
+    <section class="reviews" aria-label="Customer Google reviews">
+      <!-- Your Elfsight Google Reviews widget -->
+      <div class="elfsight-app-82bcaf8f-518c-4e33-8bd5-155e9160a3b0" data-elfsight-app-lazy></div>
+    </section>
+  </main>
+</body>
+</html>
